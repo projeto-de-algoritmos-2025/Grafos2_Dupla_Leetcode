@@ -1,141 +1,60 @@
-# Parking lot
+# Grafos2_Dupla_Leetcode
 
-**Número da Lista**: 1  
-**Conteúdo da Disciplina**: FGA0124 - PROJETO DE ALGORITMOS - T01  
+# Grafos 2 - Lista 2
+
+## 📋 Informações do Projeto
+
+**Disciplina:** Grafos 2  
+**Número da Lista:** 2  
+**Linguagem:** C
+
+## 👥 Alunos
+
+| Nome | Matrícula |
+|------|-----------|
+| Patrick Anderson Carvalho dos Santos | 211030620 |
+| Vinícius Eduardo Muniz da Silva | 211031870 |
+
+## 📖 Sobre
+
+Resolução de exercícios do LeetCode de acordo com as condições propostas pelo professor em sala de aula.
+
+## Exercícios
+
+Serão realizados 4 exercícios, sendo 2 de nível Médio e 2 de nível Difícil.
+
+| Nome | Dificuldade | Link Resolução |
+|------|-------------|----------------|
+| [1368. Minimum Cost to Make at Least One Valid Path in a Grid](https://github.com/projeto-de-algoritmos-2025/Grafos2_Dupla_Leetcode/blob/main/Questao_1368_Minimum_Cost/minimumCost.c) | Difícil | [Resolução](https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/description/?envType=problem-list-v2&envId=graph/) |
 
 
-## Alunos
+## 📸 Screenshots
 
+*Adicione 3 ou mais screenshots do projeto em funcionamento.*
 
-<div align = "center">
-<table>
-  <tr>
-    <td align="center"><a href="https://github.com/BiancaPatrocinio7"><img style="border-radius: 50%;" src="https://github.com/BiancaPatrocinio7.png" width="190;" alt=""/><br /><sub><b>Bianca Patrocínio</b></sub></a><br /><a href="Link git" title="Rocketseat"></a></td>
-    <td align="center"><a href="https://github.com/leticiatmartins"><img style="border-radius: 50%;" src="https://github.com/leticiatmartins.png" width="190px;" alt=""/><br /><sub><b>Leticia Torres </b></sub></a><br />
-  </tr>
-</table>
+Veja abaixo uma imagem da execução da **Questão 1368: Minimum Cost to Make at Least One Valid Path in a Grid**:
 
-| Matrícula   | Aluno                             |
-| ----------- | ---------------------------------- |
-| 22/1008801  | Bianca Patrocínio Castro           |
-| 20/2016702  | Leticia Torres Soares Martins      |
-</div>
-
-## Sobre 
-O sistema de estacionamento simula a alocação de vagas de estacionamento para clientes em um shopping, com 18 vagas e 6 lojas, utilizando algoritmos de grafos. O objetivo é encontrar a vaga mais próxima de uma loja específica usando a busca em largura (BFS).
-
-## Screenshots
-<p align="center">
-  <img src="Documentos/screenshots/Print%201.png" alt="Print 1 do projeto" width="600"/>
-</p>
-
-<p align="center">
-  <img src="Documentos/screenshots/Print%202.png" alt="Print 2 do projeto" width="600"/>
-</p>
-
-<p align="center">
-  <img src="Documentos/screenshots/Print%203.png" alt="Print 3 do projeto" width="600"/>
-</p>
-
-<p align="center">
-  <img src="Documentos/screenshots/Print.png" alt="Print do projeto" width="600"/>
-</p>
-
-<p align="center">
-  <img src="Documentos/screenshots/Print%204.png" alt="Print 4 do projeto" width="600"/>
-</p>
-
-<p align="center">
-  <img src="Documentos/screenshots/Print%205.png" alt="Print 5 do projeto" width="600"/>
-</p>
-
-<p align="center">
-  <img src="Documentos/screenshots/Print%206.png" alt="Print 6 do projeto" width="600"/>
-</p>
-
-<p align="center">
-  <img src="Documentos/screenshots/Print%207.png" alt="Print 7 do projeto" width="600"/>
-</p>
-
-<p align="center">
-  <img src="Documentos/screenshots/Print%208.png" alt="Print 8 do projeto" width="600"/>
-</p>
+![Minimum Cost to Make at Least One Valid Path in a Grid](Questao_1368_Minimum_Cost/minimumCost.png)
 
 
 
-## Instalação 
-**Linguagem**: C++
 
-## Pré-requisitos
 
-Antes de rodar o projeto, você precisará ter os seguintes programas instalados:
+## 🛠️ Instalação
 
-- **g++** (compilador C++).
-- **make** (ferramenta de automação de builds).
-- **Graphviz (dot)** para gerar e visualizar os grafos do caminho.
+**Pré-requisitos:**
+- Compilador C (gcc recomendado)
+- Sistema operacional compatível
 
-### Instalar g++, make e dot
-
-#### No macOS:
-Se você usa macOS, pode instalar com o Homebrew:
-
+**Comandos necessários:**
 ```bash
-brew install gcc make graphviz
+# Descreva os comandos de instalação aqui
 ```
 
-#### No Linux (Ubuntu/Debian):
-No Linux, instale com:
+## 🚀 Uso
 
-```bash
-sudo apt update
-sudo apt install build-essential graphviz
-```
+Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
 
-## Como compilar e executar o projeto
-### Passo 1: Clonar o repositório
-```bash
-git clone https://github.com/seu-usuario/Grafos-1-Parking-lot.git
-cd Grafos-1-Parking-lot
-```
+## 📝 Outros
 
-### Passo 2: Compilar o projeto
-Para compilar o projeto, use o comando make. Isso irá compilar todos os arquivos fonte e gerar o executável:
-
-```bash
-make
-```
-
-### Passo 3: Rodar o projeto
-Após a compilação, execute o programa gerado:
-
-```bash
-./Grafos-1-Parking-lot
-```
-
-## Uso 
-Após rodar o programa, escolha uma loja. O sistema encontrará a vaga mais próxima disponível usando o algoritmo BFS, e um grafo será gerado mostrando o caminho até essa vaga.
-
-O grafo será salvo como uma imagem `.png` no formato:
-
-```
-caminho_para_vaga_X.png
-```
-
-(onde `X` é o número da vaga).
-
-## Apresentação 
-
-<div align="center">
-<a href="https://youtu.be/PoJ3FK-J3wM?si=VLjQ5nK-w6U8Dh7-"><img src="https://i.imgur.com/nNBEJk2.png" width="50%"></a>
-</div>
-
-<font size="3"><p style="text-align: center">Autor: [Bianca Patrocínio](https://github.com/BiancaPatrocinio7) e [Letícia Torres](https://github.com/leticiatmartins).</p></font>
-
-
-## Outros 
-- O projeto usa a biblioteca Graphviz para gerar arquivos `.dot` e convertê-los em imagens PNG.
-- Se tiver problemas para visualizar as imagens, verifique se o `dot` está instalado corretamente.
-  
-
-
-
+Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
