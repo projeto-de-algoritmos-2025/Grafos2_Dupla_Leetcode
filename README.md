@@ -25,7 +25,7 @@ Serão realizados 4 exercícios, sendo 2 de nível Médio e 2 de nível Difícil
 
 | Nome | Dificuldade | Link Resolução |
 |------|-------------|----------------|
-| [1368. Minimum Cost to Make at Least One Valid Path in a Grid](https://github.com/projeto-de-algoritmos-2025/Grafos2_Dupla_Leetcode/blob/main/Questao_1368_Minimum_Cost/minimumCost.c) | Difícil | [Resolução](https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/description/?envType=problem-list-v2&envId=graph/) |
+| [1368. Minimum Cost to Make at Least One Valid Path in a Grid](https://github.com/projeto-de-algoritmos-2025/Grafos2_Dupla_Leetcode/tree/master/Questao_1368_Minimum_Cost) | Difícil | [Resolução](https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/description/?envType=problem-list-v2&envId=graph/) |
 
 
 ## 📸 Screenshots
