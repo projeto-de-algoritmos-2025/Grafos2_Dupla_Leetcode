@@ -62,8 +62,12 @@ HeapNode pop(MinHeap* heap) {
 int networkDelayTime(int** times, int timesSize, int* timesColSize, int n, int k) {
     Edge** graph = malloc((n + 1) * sizeof(Edge*));
     int* edgeCount = calloc(n + 1, sizeof(int));
-    for (int i = 0; i < timesSize; i++) edgeCount[times[i][0]]++;
-    for (int i = 1; i <= n; i++) graph[i] = malloc(edgeCount[i] * sizeof(Edge));
+    for (int i = 0; i < timesSize; i++) {
+        edgeCount[times[i][0]]++;
+    }
+    for (int i = 1; i <= n; i++) {
+        graph[i] = malloc(edgeCount[i] * sizeof(Edge));
+    }
     int* idx = calloc(n + 1, sizeof(int));
     for (int i = 0; i < timesSize; i++) {
         int u = times[i][0], v = times[i][1], w = times[i][2];
@@ -73,7 +77,9 @@ int networkDelayTime(int** times, int timesSize, int* timesColSize, int n, int k
     }
 
     int* dist = malloc((n + 1) * sizeof(int));
-    for (int i = 1; i <= n; i++) dist[i] = INT_MAX;
+    for (int i = 1; i <= n; i++) {
+        dist[i] = INT_MAX;
+    }
     dist[k] = 0;
 
     MinHeap* heap = createHeap(n * n);
@@ -83,7 +89,9 @@ int networkDelayTime(int** times, int timesSize, int* timesColSize, int n, int k
         HeapNode current = pop(heap);
         int node = current.node;
         int d = current.dist;
-        if (d > dist[node]) continue;
+        if (d > dist[node]) {
+            continue;
+        }
         for (int i = 0; i < edgeCount[node]; i++) {
             int neighbor = graph[node][i].node;
             int time = graph[node][i].time;
@@ -96,8 +104,12 @@ int networkDelayTime(int** times, int timesSize, int* timesColSize, int n, int k
 
     int result = 0;
     for (int i = 1; i <= n; i++) {
-        if (dist[i] == INT_MAX) return -1;
-        if (dist[i] > result) result = dist[i];
+        if (dist[i] == INT_MAX) {
+            return -1;
+        }
+        if (dist[i] > result) {
+            result = dist[i];
+        }
     }
     return result;
 }
