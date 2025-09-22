@@ -57,10 +57,12 @@ cd Grafos2_Dupla_Leetcode
 
 # Compile o arquivo C da questão desejada (exemplo)
 gcc -o questao1334 Questao_1334_Find_the_City/findtheCity.c
+gcc -o questao743 Questao_743_Network_Delay_Time/networkDelay.c
 gcc -o questao1368 Questao_1368_Minimum_Cost/minimumCost.c
 gcc -o questao3203 Questao_3203_Minimum_Diameter/minimumDiameter.c
 
 # Execute o programa compilado
 ./questao1334
+./questao743
 ./questao1368
 ./questao3203
