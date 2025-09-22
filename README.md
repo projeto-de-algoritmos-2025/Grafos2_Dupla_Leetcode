@@ -21,6 +21,7 @@ Serão realizados 4 exercícios, sendo 2 de nível Médio e 2 de nível Difícil
 | Nome | Dificuldade | Link Resolução |
 |------|-------------|----------------|
 | [1334. Find the City With the Smallest Number of Neighbors at a Threshold Distance](https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/description/?envType=problem-list-v2&envId=graph) | Médio | [Resolução](https://github.com/projeto-de-algoritmos-2025/Grafos2_Dupla_Leetcode/tree/master/Questao_1334_Find_the_City) |
+| [743. Network Delay Time] (https://leetcode.com/problems/network-delay-time) | Médio | [Resolução] (https://github.com/projeto-de-algoritmos-2025/Grafos2_Dupla_Leetcode/tree/master/Questao_743_Network_Delay_Time) |
 | [1368. Minimum Cost to Make at Least One Valid Path in a Grid](https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/description/?envType=problem-list-v2&envId=graph) | Difícil | [Resolução](https://github.com/projeto-de-algoritmos-2025/Grafos2_Dupla_Leetcode/tree/master/Questao_1368_Minimum_Cost) |
 | [3203. Find Minimum Diameter After Merging Two Trees](https://leetcode.com/problems/find-minimum-diameter-after-merging-two-trees/description/?envType=problem-list-v2&envId=graph) | Difícil | [Resolução](https://github.com/projeto-de-algoritmos-2025/Grafos2_Dupla_Leetcode/tree/master/Questao_3203_Minimum_Diameter) |
 
@@ -31,6 +32,9 @@ Veja abaixo as imagens da execução das questões:
 
 ### Questão 1334: Find the City With the Smallest Number of Neighbors at a Threshold Distance
 ![Find the City](Questao_1334_Find_the_City/findtheCity.png)
+
+### Questão 743: Network Delay Time
+![Network Delay](Questao_743_Network_Delay_Time/networkDelay.png)
 
 ### Questão 1368: Minimum Cost to Make at Least One Valid Path in a Grid
 ![Minimum Cost](Questao_1368_Minimum_Cost/minimumCost.png)
